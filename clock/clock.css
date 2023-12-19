@@ -1,0 +1,55 @@
+
+body {
+    background-image: url(orsrc64603\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+  
+  .clock {
+    background-color: snow;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+  }
+  
+  .time {
+    padding: 0 10px;
+  }
+  
+  .colon {
+    color: #111010;
+  }
+  
+  /* Colors for time display */
+  #hours {
+    color: #FF4136; /* Red for hours */
+  }
+  
+  #minutes {
+    color: #0074D9; /* Blue for minutes */
+  }
+  
+  #seconds {
+    color: #2ECC40; /* Green for seconds */
+  }
+  h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+  }
